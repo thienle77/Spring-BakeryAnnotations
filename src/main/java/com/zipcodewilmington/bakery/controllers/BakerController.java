@@ -4,7 +4,10 @@ import com.zipcodewilmington.bakery.models.Baker;
 import com.zipcodewilmington.bakery.services.BakerService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
 
+@Controller
 public class BakerController {
     private BakerService service;
 
